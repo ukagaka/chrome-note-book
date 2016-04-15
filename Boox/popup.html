@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>book</title>
+    <style media="screen">
+    body{
+      background-color: #eceeef;
+      color: #373a3c;
+      font-size: 12;
+    }
+      div { padding: 10px;
+        margin: 0px;
+      }
+      textarea {
+        padding: 5px;
+        margin: 0px;
+      }
+      button{
+        margin: 0px auto;
+        display: block;
+      }
+      .content{
+        min-width: 100px;
+        min-height: 100px;
+      }
+      .text {
+        display: none;
+      }
+    </style>
+    <script src="js/jquery-2.2.3.min.js"></script>
+  </head>
+  <body>
+    <div id='content' class="content">
+    </div>
+    <div class="text" id="text">
+      <p><textarea rows="10" cols="20" placeholder="请输入笔记内容"></textarea></p>
+      <button type="button" name="button" id='save'>保存</button>
+    </div>
+  </body>
+  <script src="popup.js">
+  </script>
+</html>

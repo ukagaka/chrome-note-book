@@ -1,1 +1,4 @@
-# chrome-note-book
+# chrome扩展-记事本扩展
+
+
+可以选择使用crx安装扩展，也可以更改里面的文件自己生成chrome扩展。
